@@ -9,8 +9,6 @@ import FeedbackOptions from "./FeedbackOptions/FeedbackOptions";
   const [neutral, setNeutral] = useState(0);
   const [bad, setBad] = useState(0);
   
-
-  
     const leaveFeedback = event => {
       const button = event.target.name;
       switch (button) {
